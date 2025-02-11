@@ -3,5 +3,14 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>com.redisEndpoint.UserAPIController</servlet-name>
+    <servlet-class>com.redisEndpoint.UserAPIController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>com.redisEndpoint.UserAPIController</servlet-name>
+    <url-pattern>/userDetails</url-pattern>
+  </servlet-mapping>
 </web-app>
